@@ -23,6 +23,7 @@ body{
 .input{
     width: 150px;
     height: 40px;
-    background-color:gray;
+    background-color:rgba(128, 128, 128, 0.56);
+    color: white;
     border: none;
 }
