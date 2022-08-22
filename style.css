@@ -12,17 +12,14 @@ body{
 }
 .flex{
     display: flex;
-    /* justify-content: center; */
+    
     gap: 15px;
 }
 .image{
     width: 18rem;
     height: 20rem;
 }
-#select-btn{
-    margin-top: 30px;
 
-}
 .input{
     width: 150px;
     height: 40px;
