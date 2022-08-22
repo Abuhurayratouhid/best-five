@@ -3,4 +3,29 @@ body{
 }
 #title{
     color: tomato;
+    margin-top: 100px;
+}
+.title-discription{
+    color: white;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.flex{
+    display: flex;
+    /* justify-content: center; */
+    gap: 15px;
+}
+.image{
+    width: 18rem;
+    height: 20rem;
+}
+#select-btn{
+    margin-top: 30px;
+
+}
+.input{
+    width: 150px;
+    height: 40px;
+    background-color:gray;
+    border: none;
 }
