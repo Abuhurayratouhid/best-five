@@ -1,10 +1,5 @@
 // console.log('from select .js')
 // no 1
-// const button = document.querySelector('.btn-1')
-// button.disabled = true 
-// button.disabled = false 
-
-
 document.getElementById('ozil-btn').addEventListener('click',function(){
     const list = document.getElementById('list');
     const name = document.getElementById('ozil');
@@ -17,6 +12,7 @@ document.getElementById('ozil-btn').addEventListener('click',function(){
 
         function DisableNextButton(btnId) {
             document.getElementById('ozil-btn').disabled = 'true';
+            document.getElementById('ozil-btn').style.backgroundColor = 'grey';
         }
     DisableNextButton('ozil-btn')
     
@@ -34,6 +30,7 @@ document.getElementById('salah-btn').addEventListener('click',function(){
 
     function DisableNextButton(btnId) {
         document.getElementById('salah-btn').disabled = 'true';
+        document.getElementById('salah-btn').style.backgroundColor = 'grey';
     }
 DisableNextButton('salah-btn')
     
@@ -52,6 +49,7 @@ document.getElementById('karim-btn').addEventListener('click',function(){
 
     function DisableNextButton(btnId) {
         document.getElementById('karim-btn').disabled = 'true';
+        document.getElementById('karim-btn').style.backgroundColor = 'grey';
     }
 DisableNextButton('karim-btn')
     
@@ -69,6 +67,7 @@ document.getElementById('pogba-btn').addEventListener('click',function(){
 
     function DisableNextButton(btnId) {
         document.getElementById('pogba-btn').disabled = 'true';
+        document.getElementById('pogba-btn').style.backgroundColor = 'grey';
     }
 DisableNextButton('pogba-btn')
     
@@ -86,6 +85,7 @@ document.getElementById('kante-btn').addEventListener('click',function(){
 
     function DisableNextButton(btnId) {
         document.getElementById('kante-btn').disabled = 'true';
+        document.getElementById('kante-btn').style.backgroundColor = 'grey';
     }
 DisableNextButton('kante-btn')
     
@@ -103,6 +103,7 @@ document.getElementById('ibrahim-btn').addEventListener('click',function(){
 
     function DisableNextButton(btnId) {
         document.getElementById('ibrahim-btn').disabled = 'true';
+        document.getElementById('ibrahim-btn').style.backgroundColor = 'grey';
     }
 DisableNextButton('ibrahim-btn')
     
