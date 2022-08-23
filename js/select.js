@@ -12,7 +12,9 @@ document.getElementById('ozil-btn').addEventListener('click',function(){
     const li = document.createElement('li')
     li.innerText = realName;
     list.appendChild(li);
-    // if(list.length > 5){
+
+    // function for button disable after select
+
         function DisableNextButton(btnId) {
             document.getElementById('ozil-btn').disabled = 'true';
         }
@@ -27,6 +29,9 @@ document.getElementById('salah-btn').addEventListener('click',function(){
     const li = document.createElement('li')
     li.innerText = realName;
     list.appendChild(li);
+
+    // function for button disable after select 
+
     function DisableNextButton(btnId) {
         document.getElementById('salah-btn').disabled = 'true';
     }
@@ -42,6 +47,13 @@ document.getElementById('karim-btn').addEventListener('click',function(){
     const li = document.createElement('li')
     li.innerText = realName;
     list.appendChild(li);
+
+    // function for button disable after select 
+
+    function DisableNextButton(btnId) {
+        document.getElementById('karim-btn').disabled = 'true';
+    }
+DisableNextButton('karim-btn')
     
 })
 // no 4
@@ -52,6 +64,13 @@ document.getElementById('pogba-btn').addEventListener('click',function(){
     const li = document.createElement('li')
     li.innerText = realName;
     list.appendChild(li);
+
+    // function for button disable after select 
+
+    function DisableNextButton(btnId) {
+        document.getElementById('pogba-btn').disabled = 'true';
+    }
+DisableNextButton('pogba-btn')
     
 })
 // no 5 
@@ -62,6 +81,13 @@ document.getElementById('kante-btn').addEventListener('click',function(){
     const li = document.createElement('li')
     li.innerText = realName;
     list.appendChild(li);
+
+    // function for button disable after select 
+
+    function DisableNextButton(btnId) {
+        document.getElementById('kante-btn').disabled = 'true';
+    }
+DisableNextButton('kante-btn')
     
 })
 // no 6
@@ -72,5 +98,13 @@ document.getElementById('ibrahim-btn').addEventListener('click',function(){
     const li = document.createElement('li')
     li.innerText = realName;
     list.appendChild(li);
+
+    // function for button disable after select 
+
+    function DisableNextButton(btnId) {
+        document.getElementById('ibrahim-btn').disabled = 'true';
+    }
+DisableNextButton('ibrahim-btn')
+    
     
 })
