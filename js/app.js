@@ -11,6 +11,14 @@ document.getElementById('calculate').addEventListener('click',function(){
     const expensesFieldString = playerExpensesField.innerText;
     const expensesFieldAmount = parseFloat(expensesFieldString);
     // console.log(expensesFieldAmount)
+
+    // fast calculation 
+    // get length of list 
+    const list = document.getElementById('list');
+    const listQuantity = list.length ;
+    // console.log(listQuantity);
+    const playerExpenses = playerInputAmount * listQuantity;
+    console.log(playerExpenses)
 })
 
 
