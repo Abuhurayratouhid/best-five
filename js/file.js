@@ -6,7 +6,7 @@ function  displayPlayerName(){
     const listContainer = document.getElementById('list')
     const li = document.createElement("li");
     li.innerText = cart;
-    listContainer.cartContent = '';
+    // listContainer.textContent = '';
     
     if(cart.length <= 5){
         listContainer.appendChild(li);
