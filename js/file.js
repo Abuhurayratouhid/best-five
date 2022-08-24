@@ -4,18 +4,21 @@ const cart = [];
 function  displayPlayerName(){
     
     const listContainer = document.getElementById('list')
-    const li = document.createElement("li");
-    li.innerText = cart;
-    // listContainer.textContent = '';
+    listContainer.innerText = '';
+    const p = document.createElement("p");
+    p.innerText = cart;
     
     if(cart.length <= 5){
-        listContainer.appendChild(li);
-    }
-    else{
-        alert('five player added completed')
+        listContainer.appendChild(p);
         return;
     }
-    listContainer.appendChild(li)
+    else{
+        alert('Reload this page ....and select again...you cannot add here more than 5 players')
+        
+        return ;
+    }
+    // listContainer.appendChild(li)
+    // console.log(cart.length)
     
 
 

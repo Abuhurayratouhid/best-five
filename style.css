@@ -1,9 +1,18 @@
 body{
     background-color: rgba(0, 0, 0, 0.978);
 }
+header{
+    background-image: url(images/b1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 600px;
+    margin-bottom: 100px;
+}
 #title{
-    color: rgb(7, 166, 229);
-    margin-top: 100px;
+    color: white;
+    padding-top: 70px;
+    /* margin-top: 100px; */
 }
 .title-discription{
     color: white;
@@ -26,6 +35,15 @@ body{
     background-color:rgba(128, 128, 128, 0.56);
     color: white;
     border: none;
+}
+footer{
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    
+}
+.footer-para{
+    padding: 30px;
 }
 
     
